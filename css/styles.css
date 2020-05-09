@@ -1,0 +1,76 @@
+/* цвета
+основной текст заготовков #212121
+ текст #757575
+ цвет логотипа #2196F3
+ цвет акцент #2196F3*/
+
+:root {
+  --logo-color: #212121;
+  --logo-span: #2196f3;
+  --colore-heading: #212121;
+  --colore-text: #757575;
+  --colore-backgraund: #e5e5e5;
+  --colore-focus: #2196f3;
+  --colore-auth-nav: #757575;
+}
+/* font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em; */
+
+body {
+  color: var(--colore-heading);
+  font-family: Roboto, cursive;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+/* логотип */
+.logo {
+  color: var(--logo-color);
+  font-family: Raleway, cursive;
+
+  font-size: 26px;
+  font-style: 700;
+  line-height: 1.19;
+  text-decoration: none;
+}
+.logo > span {
+  color: var(--logo-span);
+}
+/* навигация */
+/* font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em; */
+
+.site-nav .link {
+  color: var(--colore-heading);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--colore-focus);
+}
+
+.auth-nav .link {
+  color: var(--colore-auth-nav);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+  color: var(--colore-focus);
+}
