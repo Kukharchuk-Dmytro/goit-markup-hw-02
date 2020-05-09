@@ -98,7 +98,7 @@ background-color:#2196F3;
 font-weight: 900;
 font-size: 16px;
 line-height: 1,87;
-text-decoration: ;
+text-decoration: none ;
 }
 /* section 1 */
 .section-heading {
@@ -156,3 +156,124 @@ line-height: 1.18;
     color: #757575;
     font-weight: 400;
 }
+.client {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em
+}
+
+/* footer
+ */
+ .logo-footer {
+   color: var(--logo-color);
+  font-family: Raleway, cursive;
+  font-style: normal;
+  font-size: 22px;
+  font-style: 700;
+  line-height: 1.181;  
+ }
+ .logo-footer >span {
+   color: var(--logo-span);  
+ }
+ .adress {
+   color: #ffffff;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em  
+ }
+ .email{
+color: rgba(255, 255, 255, 0.6);
+font-size: 14px;
+font-style: normal;
+font-weight: normal;
+line-height: 1.71;
+letter-spacing: 0.03em;
+  
+ }
+ .phone{
+color: rgba(255, 255, 255, 0.6);
+font-size: 14px;
+font-style: normal;
+line-height: 1.71;
+letter-spacing: 0.03em;  
+ }
+ .text-footer {
+color: #ffffff;
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+}
+
+ .navigation {
+list-style: none; 
+text-decoration: none;
+
+ }
+ .product {
+color: rgba(255, 255, 255, 0.4);
+font-size: 12px;
+line-height: 2;
+text-align: center;
+letter-spacing: 0.03em;
+
+ }
+
+ .footer {
+background-color: #2F303A;
+ }
+
+
+ /* портфолио */
+
+ .button {
+color: #212121;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+background-color: #F5F4FA;
+ }
+ .button  :hover,
+ .button  :focus {
+   color: var(--colore-focus);
+ }
+
+ .portfolio {
+list-style: none; 
+text-decoration: none;
+
+ }
+
+ .portfolio .link {
+list-style: none; 
+text-decoration: none;
+}
+
+.link-header {
+  color: #212121;
+font-weight: 700;
+font-size: 18px;
+line-height: 36px;
+letter-spacing: 0.06em;
+}
+
+ .link-text {
+color: #757575;
+font-size: 16px;
+line-height: 30px;
+letter-spacing: 0.03em;
+ }
+
+ .text-demo{
+color: #FFFFFF;
+font-size: 18px;
+line-height: 28px;
+letter-spacing: 0.03em;
+background: #2196f3;
+ }
